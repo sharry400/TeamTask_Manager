@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api'
+const API = import.meta.env.VITE_API_URL || '/api'
 async function request(path, options = {}) {
   const headers = new Headers(options.headers)
   if (options.body && !headers.has('Content-Type')) headers.set('Content-Type', 'application/json')
