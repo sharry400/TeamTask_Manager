@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://BACKEND_URL/api/:path*"
+      "destination": "https://team-task-api.vercel.app/api/:path*"
     }
   ]
 }
